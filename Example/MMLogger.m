@@ -111,16 +111,14 @@ void inline MMDebug(id text, ...){
 }
 
 void inline MMInfo(id text, ...){
-    #ifdef DISTRIBUTION || DEBUG
-        va_list args;
-        va_start(args, text);
-    
-        if (_debug_mode > 0) {
-            NSLogv(text, args);
-        }
+    va_list args;
+    va_start(args, text);
 
-        va_end(args);
-    #endif
+    if (_debug_mode > 0) {
+        NSLogv(text, args);
+    }
+
+    va_end(args);
 }
 
 void inline MMNote(id text, ...){
@@ -139,13 +137,10 @@ void inline MMNotice(id text, ...){
 
 void inline MMNoticeV(NSString *format, va_list args) {
     
-    #ifdef DISTRIBUTION || DEBUG
-        if (_debug_mode > 0) {
-            //    MMLogDebugModeV(text, args);
-            NSLogv(format, args);
-        }
-    #endif
-
+    if (_debug_mode > 0) {
+        //    MMLogDebugModeV(text, args);
+        NSLogv(format, args);
+    }
 }
 
 
@@ -171,15 +166,8 @@ void inline MMError(id text, ...){
     va_list args;
     va_start(args, text);
     
-    //#if DEBUG
-    //NSString *log_msg = [[[NSString alloc] initWithFormat:text arguments:args] autorelease];
-    //NSLogv(text, args);
-    //#else
-    //if (_debug_mode > 0) {
-        //    MMLogDebugModeV(text, args);
-        NSLogv(text, args);
-    //}
-    //#endif
+    NSLogv(text, args);
+
     va_end(args);
     
 }
