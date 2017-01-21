@@ -5,7 +5,6 @@
 //  Created by Kelly Huberty on 8/23/12.
 //
 //
-#import "MMPreferences.h"
 #import "MMLogger.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -55,7 +54,8 @@ void MMLogDebugModeV(id text, va_list args){
 @implementation MMLogger
 
 +(void)loadDebugMode{
-    //_debug_mode = [[MMPreferences valueForKey:@"MMDebugModeScheme"] intValue];
+    
+    
     
     if([[NSBundle mainBundle] objectForInfoDictionaryKey:@"MMDebugModeScheme"] != nil){
     
@@ -70,12 +70,13 @@ void MMLogDebugModeV(id text, va_list args){
 
 +(void)setEnabled{
     _debug_mode = 1;
-    [MMPreferences setValue:[NSNumber numberWithInteger:1] forKey:@"MMDebugModeScheme"];
+    
+//    [MMPreferences setValue:[NSNumber numberWithInteger:1] forKey:@"MMDebugModeScheme"];
 }
 
 +(void)setDisabled{
     _debug_mode = 0;
-    [MMPreferences setValue:[NSNumber numberWithInteger:0] forKey:@"MMDebugModeScheme"];
+//    [MMPreferences setValue:[NSNumber numberWithInteger:0] forKey:@"MMDebugModeScheme"];
 }
 
 +(BOOL)enabled{
