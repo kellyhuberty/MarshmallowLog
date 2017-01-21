@@ -68,12 +68,12 @@ void MMLogDebugModeV(id text, va_list args){
 
 +(void)setEnabled{
     _debug_mode = 1;
-    [MMPreferences setValue:[NSNumber numberWithInteger:1] forKey:@"MMDebugModeScheme"];
+    //[MMPreferences setValue:[NSNumber numberWithInteger:1] forKey:@"MMDebugModeScheme"];
 }
 
 +(void)setDisabled{
     _debug_mode = 0;
-    [MMPreferences setValue:[NSNumber numberWithInteger:0] forKey:@"MMDebugModeScheme"];
+    //[MMPreferences setValue:[NSNumber numberWithInteger:0] forKey:@"MMDebugModeScheme"];
 }
 
 +(BOOL)enabled{
