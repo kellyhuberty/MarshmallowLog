@@ -1,0 +1,6 @@
+framework module MarshmallowLog {
+  umbrella header "MarshmallowLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

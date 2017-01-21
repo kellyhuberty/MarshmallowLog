@@ -13,6 +13,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		C38593ABCB770E1C1E1805DD /* Pods_MarshmallowLog_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C1D2B46B0A2C3495DFC4D1A /* Pods_MarshmallowLog_Tests.framework */; };
+		C7CEF1721E3391AB00D0BC20 /* MMLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CEF1711E3391AB00D0BC20 /* MMLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +28,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		7C853DE0A50E5D63CB9F5AC8 /* Pods-MarshmallowLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarshmallowLog_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarshmallowLog_Tests/Pods-MarshmallowLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C88B3A76F38A675B888F9207 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D374AFDBF66483E9AB5EA3B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DCFFCCD75097CAD739AEDDE2 /* MarshmallowLog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MarshmallowLog.podspec; path = ../MarshmallowLog.podspec; sourceTree = "<group>"; };
+		C7CEF1701E3391AB00D0BC20 /* MMLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLogger.h; sourceTree = "<group>"; };
+		C7CEF1711E3391AB00D0BC20 /* MMLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLogger.m; sourceTree = "<group>"; };
+		C88B3A76F38A675B888F9207 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D374AFDBF66483E9AB5EA3B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DCFFCCD75097CAD739AEDDE2 /* MarshmallowLog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MarshmallowLog.podspec; path = ../MarshmallowLog.podspec; sourceTree = "<group>"; };
 		F7BBC46935FAB962E27F047D /* Pods-MarshmallowLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarshmallowLog_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarshmallowLog_Tests/Pods-MarshmallowLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +63,8 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				C7CEF1701E3391AB00D0BC20 /* MMLogger.h */,
+				C7CEF1711E3391AB00D0BC20 /* MMLogger.m */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -238,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				C7CEF1721E3391AB00D0BC20 /* MMLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

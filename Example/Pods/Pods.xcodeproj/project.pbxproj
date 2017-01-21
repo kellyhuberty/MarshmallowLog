@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AFAF12E6117AABA695A0DA0BE2A3CB6 /* MarshmallowLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC8455EB290B63283D42C200F6C48A3 /* MarshmallowLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		237CD2BEC44C123D4A6D23754F6778F9 /* MarshmallowLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C2D4F63FA067B9EFE72B726BEF28AA /* MarshmallowLog-dummy.m */; };
+		4A3D697D01A499F61455E5772232969C /* Pods-MarshmallowLog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC6845316A7766DD21F80ED21BB8F05E /* Pods-MarshmallowLog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		861FA84EDDFF93C28B8A500D0DCAFF65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8A85C78595DE0BBB3A075B976F7EB66F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		95DC34AFB8B5744D9998A4354180C9BD /* Pods-MarshmallowLog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38060CF26CCDCDBD6ACDA9136541F831 /* Pods-MarshmallowLog_Tests-dummy.m */; };
+		B8B378F2E9A0B3F62071E8E13D0B11B2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CD3BB17ED1F5AE0A8BFAB4F5B830CF /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		293E6C2E96F181C1705357D85112E23B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1671C289087372028891E791B24C554;
+			remoteInfo = MarshmallowLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01CD3BB17ED1F5AE0A8BFAB4F5B830CF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		0A3D236F1D09DB0B9A567314A306FFD9 /* MarshmallowLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MarshmallowLog.modulemap; sourceTree = "<group>"; };
+		38060CF26CCDCDBD6ACDA9136541F831 /* Pods-MarshmallowLog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarshmallowLog_Tests-dummy.m"; sourceTree = "<group>"; };
+		3CD8D0AE9ED605FFE23A7AA259F4B2EE /* Pods-MarshmallowLog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarshmallowLog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4BFF553A76B3CF75B01145CAFA95CEEE /* Pods-MarshmallowLog_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarshmallowLog_Tests-resources.sh"; sourceTree = "<group>"; };
+		4E7973A8E63238D0149F419F4CF601A0 /* Pods-MarshmallowLog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarshmallowLog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5FC8455EB290B63283D42C200F6C48A3 /* MarshmallowLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarshmallowLog-umbrella.h"; sourceTree = "<group>"; };
+		63C2D4F63FA067B9EFE72B726BEF28AA /* MarshmallowLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarshmallowLog-dummy.m"; sourceTree = "<group>"; };
+		70462E765D0CF3A1D8EE9BE6C7BF6089 /* Pods-MarshmallowLog_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarshmallowLog_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8394E4DA41B043117EBC2750A6C2CEAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		971F8E8F0EBCD9DC99089F1635B7D0BA /* MarshmallowLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarshmallowLog-prefix.pch"; sourceTree = "<group>"; };
+		9BE94519A499C47BADF1351AA3DF7AC0 /* Pods-MarshmallowLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarshmallowLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9C93265BE4B8DAD1816F18D1CFF57365 /* Pods-MarshmallowLog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MarshmallowLog_Tests.modulemap"; sourceTree = "<group>"; };
+		ABC160A712FE415C40F748475AA646B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC6845316A7766DD21F80ED21BB8F05E /* Pods-MarshmallowLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarshmallowLog_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE163BDAA08C3A5EDCDBD0F60BC69A9F /* MarshmallowLog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarshmallowLog.xcconfig; sourceTree = "<group>"; };
+		D5C0B73F99694B0A4ED372204F935435 /* Pods-MarshmallowLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarshmallowLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2AB200DE8EF177FE71A99DABDA2F8AB /* MarshmallowLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MarshmallowLog.framework; path = MarshmallowLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBB98E73F631DD43AC070F4447B41D6 /* Pods_MarshmallowLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MarshmallowLog_Tests.framework; path = "Pods-MarshmallowLog_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41C93F32C28F81EEEF8A1A7D8821C249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A85C78595DE0BBB3A075B976F7EB66F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59F7965F78F511F5F773F61D2F5C0B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861FA84EDDFF93C28B8A500D0DCAFF65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45AF222C826B57CCA98E9FA1C67053F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2AB200DE8EF177FE71A99DABDA2F8AB /* MarshmallowLog.framework */,
+				EEBB98E73F631DD43AC070F4447B41D6 /* Pods_MarshmallowLog_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D1D89B6FDA061A06CA22AC0DEA198AC /* MarshmallowLog */ = {
+			isa = PBXGroup;
+			children = (
+				E596D1DF9508977C7027C9F5269DCFD3 /* Classes */,
+			);
+			name = MarshmallowLog;
+			path = MarshmallowLog;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E99082EA1FD6E43F8964E388327D4420 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				45AF222C826B57CCA98E9FA1C67053F1 /* Products */,
+				BE3BE6D45B28B9DBC867B7A5A9AB0540 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8BD821560BFE35D6A5ADA32AAD71FC29 /* MarshmallowLog */ = {
+			isa = PBXGroup;
+			children = (
+				5D1D89B6FDA061A06CA22AC0DEA198AC /* MarshmallowLog */,
+				AE334FF2E00AF77D2762222176A2B0A4 /* Support Files */,
+			);
+			name = MarshmallowLog;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AE334FF2E00AF77D2762222176A2B0A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABC160A712FE415C40F748475AA646B2 /* Info.plist */,
+				0A3D236F1D09DB0B9A567314A306FFD9 /* MarshmallowLog.modulemap */,
+				CE163BDAA08C3A5EDCDBD0F60BC69A9F /* MarshmallowLog.xcconfig */,
+				63C2D4F63FA067B9EFE72B726BEF28AA /* MarshmallowLog-dummy.m */,
+				971F8E8F0EBCD9DC99089F1635B7D0BA /* MarshmallowLog-prefix.pch */,
+				5FC8455EB290B63283D42C200F6C48A3 /* MarshmallowLog-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MarshmallowLog";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE3BE6D45B28B9DBC867B7A5A9AB0540 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8662E5188198BF076B97605F46D21E4 /* Pods-MarshmallowLog_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D8662E5188198BF076B97605F46D21E4 /* Pods-MarshmallowLog_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8394E4DA41B043117EBC2750A6C2CEAA /* Info.plist */,
+				9C93265BE4B8DAD1816F18D1CFF57365 /* Pods-MarshmallowLog_Tests.modulemap */,
+				4E7973A8E63238D0149F419F4CF601A0 /* Pods-MarshmallowLog_Tests-acknowledgements.markdown */,
+				3CD8D0AE9ED605FFE23A7AA259F4B2EE /* Pods-MarshmallowLog_Tests-acknowledgements.plist */,
+				38060CF26CCDCDBD6ACDA9136541F831 /* Pods-MarshmallowLog_Tests-dummy.m */,
+				70462E765D0CF3A1D8EE9BE6C7BF6089 /* Pods-MarshmallowLog_Tests-frameworks.sh */,
+				4BFF553A76B3CF75B01145CAFA95CEEE /* Pods-MarshmallowLog_Tests-resources.sh */,
+				BC6845316A7766DD21F80ED21BB8F05E /* Pods-MarshmallowLog_Tests-umbrella.h */,
+				D5C0B73F99694B0A4ED372204F935435 /* Pods-MarshmallowLog_Tests.debug.xcconfig */,
+				9BE94519A499C47BADF1351AA3DF7AC0 /* Pods-MarshmallowLog_Tests.release.xcconfig */,
+			);
+			name = "Pods-MarshmallowLog_Tests";
+			path = "Target Support Files/Pods-MarshmallowLog_Tests";
+			sourceTree = "<group>";
+		};
+		E596D1DF9508977C7027C9F5269DCFD3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				01CD3BB17ED1F5AE0A8BFAB4F5B830CF /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E99082EA1FD6E43F8964E388327D4420 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BD821560BFE35D6A5ADA32AAD71FC29 /* MarshmallowLog */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ECC6B9E489AA121139BC74480004F0C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3D697D01A499F61455E5772232969C /* Pods-MarshmallowLog_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9407CE46B6A5A2C4987AF5FBF45BF7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFAF12E6117AABA695A0DA0BE2A3CB6 /* MarshmallowLog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		37D7DBF106AAE4CE5A18885497B8835D /* Pods-MarshmallowLog_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2E2CED56BEE561A1ACDA00B0114710 /* Build configuration list for PBXNativeTarget "Pods-MarshmallowLog_Tests" */;
+			buildPhases = (
+				D33B5DA80C95F67362B4EADFF41E511B /* Sources */,
+				41C93F32C28F81EEEF8A1A7D8821C249 /* Frameworks */,
+				ECC6B9E489AA121139BC74480004F0C8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				173CC257602C4C22DBC4BEBFE2F554C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-MarshmallowLog_Tests";
+			productName = "Pods-MarshmallowLog_Tests";
+			productReference = EEBB98E73F631DD43AC070F4447B41D6 /* Pods_MarshmallowLog_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1671C289087372028891E791B24C554 /* MarshmallowLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98DE7E7FA02DF35283BAEC2C5AF51872 /* Build configuration list for PBXNativeTarget "MarshmallowLog" */;
+			buildPhases = (
+				4E13253655229CCABDF4C5453DCC75B0 /* Sources */,
+				F59F7965F78F511F5F773F61D2F5C0B8 /* Frameworks */,
+				F9407CE46B6A5A2C4987AF5FBF45BF7F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarshmallowLog;
+			productName = MarshmallowLog;
+			productReference = E2AB200DE8EF177FE71A99DABDA2F8AB /* MarshmallowLog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 45AF222C826B57CCA98E9FA1C67053F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1671C289087372028891E791B24C554 /* MarshmallowLog */,
+				37D7DBF106AAE4CE5A18885497B8835D /* Pods-MarshmallowLog_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E13253655229CCABDF4C5453DCC75B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				237CD2BEC44C123D4A6D23754F6778F9 /* MarshmallowLog-dummy.m in Sources */,
+				B8B378F2E9A0B3F62071E8E13D0B11B2 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33B5DA80C95F67362B4EADFF41E511B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DC34AFB8B5744D9998A4354180C9BD /* Pods-MarshmallowLog_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		173CC257602C4C22DBC4BEBFE2F554C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MarshmallowLog;
+			target = B1671C289087372028891E791B24C554 /* MarshmallowLog */;
+			targetProxy = 293E6C2E96F181C1705357D85112E23B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E54E2611A83956BEBDE9A142B1EE9AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BE94519A499C47BADF1351AA3DF7AC0 /* Pods-MarshmallowLog_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MarshmallowLog_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarshmallowLog_Tests/Pods-MarshmallowLog_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MarshmallowLog_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B399E1C716E7F84B3AB397F41057113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C0B73F99694B0A4ED372204F935435 /* Pods-MarshmallowLog_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MarshmallowLog_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarshmallowLog_Tests/Pods-MarshmallowLog_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MarshmallowLog_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6238F8104D1BC3E7AEDC102BFAE7BBA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE163BDAA08C3A5EDCDBD0F60BC69A9F /* MarshmallowLog.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MarshmallowLog/MarshmallowLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarshmallowLog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MarshmallowLog/MarshmallowLog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MarshmallowLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C1DF44155FF94455ECAB2100CF000243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE163BDAA08C3A5EDCDBD0F60BC69A9F /* MarshmallowLog.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MarshmallowLog/MarshmallowLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarshmallowLog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MarshmallowLog/MarshmallowLog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MarshmallowLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98DE7E7FA02DF35283BAEC2C5AF51872 /* Build configuration list for PBXNativeTarget "MarshmallowLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1DF44155FF94455ECAB2100CF000243 /* Debug */,
+				6238F8104D1BC3E7AEDC102BFAE7BBA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2E2CED56BEE561A1ACDA00B0114710 /* Build configuration list for PBXNativeTarget "Pods-MarshmallowLog_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B399E1C716E7F84B3AB397F41057113 /* Debug */,
+				1E54E2611A83956BEBDE9A142B1EE9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
